@@ -1,0 +1,349 @@
+
+
+
+/* TOP NAVIGATION BAR */
+
+.navbar {
+	background-color:#f2f2f2;
+	position: absolute;
+	height: 10%;
+	width:99.9%;
+	top:0;
+	left:0;
+	display:block;
+	border-bottom:1px #DADADA solid;
+}
+
+.navbar > a > img {
+	width:8.5%;
+	height:auto;
+	display:inline-block;
+	position: relative;
+	top: 15%;
+	left:5px;
+}
+
+.navbar .searchbox {
+	display:inline-block;
+	top:-15%;
+	width:42.5%;
+	height:1.7em;
+	border-width: 1px 1px 1px 1px;
+	border-color: #E5E5E5;
+	position: relative;
+	left:1%;
+	font: 16px/1 Arial;
+	vertical-align: middle;
+	padding-left:9px;
+}
+
+.navbar input {
+	background: #fff url(images/voiceicon.png) no-repeat scroll 99%;
+	background-size: 15px auto;
+	padding-right: 30px;
+
+}
+
+.searchbox:hover {
+	border-color:#C4C4C4;
+}
+
+#mglass {
+	background-color:#4D90FE;
+	border-color: #4D90FE;
+	border-radius:2px;
+	border-width:1px
+	vertical-align: middle;
+	top:-2.5px;
+	left:7px;
+	height:2.33em;
+	width: 5em;
+	position: relative;
+	outline: none;
+}
+
+#mglass:hover {
+border-color:#3E73CB;
+
+}
+.navbar ul {
+	position:absolute;
+	margin:0.5% 0%;
+	right:3.5%;
+	top:15%;
+	list-style-type:none;
+	overflow:hidden;
+	width: 10%;
+	
+}
+
+.r_navbar .grid {
+	margin: 4% 12%;
+	position: absolute;
+}
+
+.r_navbar li {
+	float:right;
+	
+}
+
+.r_navbar li a {
+	display: block;
+	width: 44px;
+	
+}
+
+.Sign_button {
+	
+	word-spacing: normal;
+	display:inline-block;
+	background-color:#4D90FE;
+	padding: 9px 13px;
+	border-radius:3px;
+	font: 13px/1 Arial;
+
+}
+
+.Sign_button a {
+	text-decoration: none;
+	color:#fff;
+	font-weight:bold;
+}
+
+.r_navbar img:hover {
+	content:url(images/black-grid.png);
+}
+
+/*THE BAR BELOW THE NAV BAR*/
+
+.tabbar {
+	display:block;
+	position:absolute;
+	left:0%;
+	width:99.9%;
+	top:10%;
+	height:9.7%;
+	border-bottom:1px #DADADA solid;
+}
+
+.l_tabbar {
+	position:relative;
+	float:left;
+	left:9.7%;
+	width:90%;
+	vertical-align: middle;
+	height:100%;
+	
+}
+
+.l_tabbar ul {
+	margin:0 0;
+	list-style-type:none;
+	overflow:hidden;
+	height:100%;
+	width:96%;
+	vertical-align: middle;
+
+	
+
+}
+
+.l_tabbar li {
+	position: relative;
+	vertical-align: middle;
+	display: inline;
+	padding: 1.85% 0.8%;
+	margin-right: 1.2%;
+	font: 13px/1 Arial;
+	top:30%;
+	left:-3.4%;
+	
+}
+
+.l_tabbar li a {
+	text-decoration: none;
+	color:#60606A;
+}
+
+.l_tabbar li a:hover {
+	color: #000000;
+}
+
+#web_text {
+	color:#dd4b39;
+	font-weight:bold;
+}
+
+#web_tab {
+	border-bottom: 3px #dd4b39 solid;
+}
+
+.l_tabbar ul li img {
+	vertical-align: middle;
+}
+
+.l_tabbar ul li img:hover {
+	content: url(images/blackarrow.png);
+} 
+
+#search_tool {
+	padding:0.5em;
+	vertical-align:middle;
+	margin-left:-1.5%;
+	
+}
+
+#search_tool:hover {
+	background-color:#f2f2f2;
+	border:1px #C4C4C4 solid;
+	color:#60606A;
+	border-radius:2px;
+	padding:0.4em;
+}
+
+#li_gear {
+	margin-left:42.5%;
+}
+
+#gear {
+	position: absolute;
+	margin-top:0;
+	width: 70px;
+	height: 30px;
+	border-radius:2px;
+	background-color: #f2f2f2;
+	border: 1px #DADADA solid;
+	
+	
+}
+
+#gear:hover {
+	border: 1px #C4C4C4 solid;
+}
+
+/* RESULTS */
+
+.results {
+	font:13px/1.4 Arial;
+	position:absolute;
+	top:19.8%;
+	left:10.5%;
+	float:left;
+	color:#4F4F4F;
+	
+}
+
+.results ul{
+	list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+}
+
+.results ul li {
+	display: block;
+	margin-top:15px;
+	margin-bottom:15px;
+	line-height:18.5px;
+}
+
+.results ul li a {
+	font-size: 18px;
+	color:#1122CC;
+	text-decoration:none;
+}
+
+.results ul li a:hover {
+	text-decoration:underline;
+}
+
+.results ul li span {
+	color:#006321;
+}
+
+#result_url:after {
+	content:url(images/greenarrow.png);
+	vertical-align: middle;
+	padding-left:5px;
+	display:inline-block;
+	padding-top:3px;
+}
+
+.related_searches {
+	padding: 10px 3px 10px 10px;
+	border-top:1px #DADADA solid;
+	border-bottom:1px #DADADA solid;;
+}
+
+.related_searches table {
+	width:80%;
+}
+
+.related_searches #rs_header {
+	font:17px/1 Arial;
+	color:#707079;
+}
+
+.related_searches table td {
+	color:#1122CC;
+}
+
+.related_searches table td:hover {
+	text-decoration:underline;
+}
+
+#goooogle {
+	width:58%;
+	display:block;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+#last_li {
+	text-align: center;
+}
+
+#onetonine {
+	font: 13px/1 Arial;
+	color:#1122CC;
+	margin-left:6.5px;
+	margin-right:2px;
+
+}
+
+#onetonine:hover {
+	text-decoration: underline;
+}
+
+.footer {
+	border-top:1px #DADADA solid;;
+	position:absolute;
+	height:75px;
+	background-color:#f2f2f2;
+	bottom:-132%;
+	width:99.9%;
+	left:0%;
+}
+.footer ul {
+	list-style-type:none;
+	margin: 32px 0 0 135px;
+	padding:10px 0 0 0;
+	height:30px;
+}
+
+.footer ul li {
+	display:inline;
+	padding-right: 20px;
+	font:13px/1 Arial;	
+}
+
+.footer ul li a {
+	font:13px/1 Arial;
+	text-decoration:none;
+	color:#737373;
+}
+
+.footer ul li a:hover {
+	color:#2E2E2E;
+}
